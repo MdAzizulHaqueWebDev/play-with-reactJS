@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>what is react</title>
+		<!-- <script
+			crossorigin
+			src="https://unpkg.com/react@18/umd/react.development.js"
+		></script>
+		<script
+			crossorigin
+			src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+		></script> -->
+
+		<script src="why.js" defer></script>
+		<style>
+			pre {
+				text-wrap: wrap;
+				text-align: left;
+			}
+			code {
+				color: brown;
+				font-weight: 700;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>What is <strong>ReactJS</strong></h2>
+
+		<pre>
+<strong>React</strong> Hocche Declarative JavaScript . 
+React.createElement() eta ekta method jekane arguments pass korle oi method ekta new React lement(<b>Seta muloto ekta object jeta diye  <strong>React DOM</strong> create hoi</b> ) return kore . 
+<b>tarmane amra caile sora sori oi element ekta variable store korte pari ba nije ekta constructor create korte pari jeta oi object ba react element return korbe</b>
+etay react element
+<code> <pre>const h1 = React.createElement() equivalent 
+const h1 = {
+type: 'h1',
+props:{}
+///..........
+}</pre></code>
+
+<h2>React Just Declarative way te <strong>html element create kore</strong> kintu ei element browser er main DOM e render korte pare na ba kunu way nai react er vitore</h2>
+<h3>R eijonno amader dorkar <strong>React DOM jetake  amra virtual DOM boli</strong> Ei Dom React diye create kora element gulu k abar transpile kore <strong>vanilla javascript diye Main DOM create kore</strong> tarpor browser e render kore</h3>
+</pre>
+		<h2>Why we use React ?</h2>
+		<h6>
+			Because React is Declarative that's why we can develop a large level web
+			UI like <b>Facebook</b> Easily and can maintain as well
+		</h6>
+		<h2>What's Declarative in React ?</h2>
+		<ol>
+			<li>DOM Element creation</li>
+			<br />
+			<details>
+				<summary>Example</summary>
+				<code>
+					<pre>
+	const h2 = React.createElement(
+	"h1",{
+	className: "bold italic text-400",
+	style: "color:lightblue; font-weight:bold",
+	}, 
+	"Hello World", );
+
+	<b style="color: black;">equivalent  to</b>
+	const h2ReturnValue = {
+	$$typeof: Symbol.for("react.element"), // $$type props uses for securiry purpose and the value (Symbol()) its can't uses in JSON which uses API
+	type: "h2",
+	key: null,
+	ref: null,
+	props: {
+	className: "bold italic text-400",
+	style: "color:lightblue; font-weight:bold",
+	},
+	_owner: null,
+	_store: {},
+	};
+	</pre>
+				</code>
+			</details>
+			<li>
+				<h4>Provides 2 (two) Virtual DOM</h4>
+				<ol>
+					<li>Web DOM for develop Web UI</li>
+					<li>Mobile App DOM develop Mobile App UI</li>
+				</ol>
+			</li>
+		</ol>
+		<h2>Key Points:</h2>
+		<ol>
+			<li>
+				React Provides Declarative paradigm to interact with Dom or Dom
+				manipulation
+			</li>
+			<li>
+				React Dom provides how does the DOM Render or transpile Vanilla
+				javascript code
+			</li>
+			<li>
+				In React , An Element is just an Object which includes 9 properties
+			</li>
+			<li>
+				JSX code do not run directly in browser
+				<br />
+				what's React Element Video timestamps : 1:13:50
+			</li>
+			<li>Browser Dom Vs React VR DOM : 1:15:52</li>
+		</ol>
+		<div id="js-dom"></div>
+	</body>
+</html>
