@@ -11,21 +11,24 @@ export const AppleCounter = () => {
 		totalApples - basket2Apples,
 	);
 	function leftButton() {
-		if (basket2Apples <= 0) return alert("not sufficient");
-		setBasket1Apples(basket1Apples++);
-		setBasket2Apples(basket2Apples--);
+		if (basket2Apples <= 0) return alert("insufficient");
+		setBasket1Apples(basket1Apples + 1);
+		setBasket2Apples(basket2Apples - 1);
 	}
 	function rightButton(params) {
 		if (basket1Apples <= 0) return alert("not sufficient");
-		setBasket1Apples(basket1Apples--);
-		setBasket2Apples(basket2Apples++);
-		// setBasket2Apples(basket1Apples);
-		console.log("rg arrow clicked");
+		setBasket1Apples(basket1Apples - 1);
+		setBasket2Apples(basket2Apples + 1);
 	}
 
 	return (
 		<div className="apple-counter">
-			<Basket name="Basket 1" apples={basket1Apples} />
+			<Basket
+				isFull={totalApples === basket1Apples}
+				isEmpty={basket1Apples === 0}
+				basketName="Basket 1"
+				apples={basket1Apples}
+			/>
 			<Button clickHandler={leftButton} arrow={LeftArrow} />
 			<Button
 				clickHandler={rightButton}
@@ -33,7 +36,12 @@ export const AppleCounter = () => {
 				basket2Apples={basket2Apples}
 				arrow={RightArrow}
 			/>
-			<Basket name="Basket 2" apples={basket2Apples} />
+			<Basket
+				isFull={totalApples === basket2Apples}
+				isEmpty={basket2Apples === 0}
+				basketName="Basket 2"
+				apples={basket2Apples}
+			/>
 		</div>
 	);
 };
