@@ -1,0 +1,12 @@
+.apple-counter {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 4rem auto 0;
+  display: flex;
+}
+
+button img {
+  max-width: 40px;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
