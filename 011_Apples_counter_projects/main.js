@@ -4,10 +4,12 @@ import { AppleCounter } from "./components/AppleCounter";
 import Counter from "./src/react-state/Counter";
 import HowStateWorks from "./src/how_does_state_works/HowStateWorks";
 import ChildrenProps from "./src/children_prop/ChildrenProps";
+import HowToMakeCssScope from "./src/make_css_scope/HowToMakeCssScope";
 
 export default function App() {
 	return (
 		<>
+			<HowToMakeCssScope />
 			<ChildrenProps>
 				<h1>This children of ChildrenProps component</h1>
 			</ChildrenProps>

@@ -5,7 +5,7 @@ export default function Counter() {
 	// console.log(setCount);
 	return (
 		<div style={{ border: "3px solid", padding: "30px" }}>
-			<h3>{count}</h3>
+			<h3 className="h3">{count}</h3>
 			<button onClick={() => setCount(count + 1)}>
 				Increase value {count}
 			</button>
