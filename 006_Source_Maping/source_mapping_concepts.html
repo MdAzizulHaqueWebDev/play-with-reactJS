@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>source mapping</title>
+	</head>
+	<body>
+		<h3>
+			Amra jokon <strong>jsx</strong> use kore coding kori tokon oi amader
+			source file browser  request e kore na jar karone amader source code
+			execute hoi na
+		</h3>
+		<p>
+			Kintu amra jokon debugging kori tokon tiki amader source file k deki kintu
+			eta actually sompurno vabe <strong>Source Mapping</strong> er karsaji
+		</p>
+        <h4>Kivabe ?</h4>
+        <p>Amra jokon javascript library use kore development kori tokon sob debugging muloto ei <strong>source mapping</strong> er maddomey hoi <br> 
+        <ol>
+            <li>Protomoto amader code browser e request e kore na</li>
+            <li>Amader code browser buje na</li>
+        </ol> </p>
+		<pre>
+		ঠিক বলেছেন! JSX প্রসঙ্গে **source mapping** একটি গুরুত্বপূর্ণ বিষয়। এটি ডেভেলপমেন্টে ডিবাগিংকে অনেক সহজ করে তোলে। চলুন, দেখে নিই **source mapping কী** এবং এটি **কীভাবে কাজ করে**:
+
+### Source Mapping কী?
+**Source mapping** হলো একটি ফাইল যা কম্পাইল বা ট্রান্সপাইল হওয়া কোডের সঙ্গে আসল সোর্স কোডের ম্যাপিং তৈরি করে। যখন JSX কোড বা ES6 কোড ব্রাউজারে রান করার জন্য সাধারণ JavaScript-এ কম্পাইল করা হয়, তখন সোর্স কোডের কাঠামো পরিবর্তিত হয়। এই পরিবর্তিত কোড দেখে ডিবাগ করা অনেক কঠিন হয়ে যায়। সোর্স ম্যাপ ফাইলটি আসল কোডের প্রতিটি লাইনের সাথে কম্পাইল হওয়া কোডের লাইনগুলোর একটি সম্পর্ক তৈরি করে, যা ডিবাগিংয়ে সহায়তা করে।
+
+### Source Mapping কীভাবে কাজ করে?
+১. **সোর্স ম্যাপ ফাইল তৈরি**: যখন JSX বা ES6 কোড কম্পাইল করা হয় (যেমন Babel বা esbuild ব্যবহার করে), তখন একটি `.map` ফাইল তৈরি হয়। এই ফাইলটিতে সোর্স কোডের লাইনের অবস্থান (line, column) এবং ট্রান্সপাইল হওয়া কোডের অবস্থানের মধ্যে একটি ম্যাপ থাকে।
+
+২. **ডেভেলপার টুলস এর মাধ্যমে ডিবাগিং**: ব্রাউজারের ডেভেলপার টুলস (যেমন Chrome DevTools) সোর্স ম্যাপ ফাইলটি পড়ে এবং কম্পাইল হওয়া কোডের সাথে আসল সোর্স কোডকে লিঙ্ক করে। এতে করে আপনি ব্রাউজারের ডেভেলপার টুলসে আসল JSX বা ES6 কোড দেখতে এবং সেটিতে ব্রেকপয়েন্ট বসাতে পারেন।
+
+৩. **ডিবাগিং সহজ করা**: সোর্স ম্যাপিংয়ের মাধ্যমে কম্পাইলড কোডের ত্রুটি (error) এবং কনসোল লগ আসল সোর্স কোডের সঠিক লাইনে রেফারেন্স করা হয়। তাই আপনি যখন কোনও ত্রুটি দেখতে পান বা ব্রেকপয়েন্ট ব্যবহার করেন, এটি সরাসরি JSX কোডে চলে যায় এবং ডিবাগিং আরও সহজ হয়।
+
+### উদাহরণস্বরূপ:
+ধরা যাক, আপনার JSX কোডটি এরকম:
+   ```jsx
+   const element = <h1>Hello, World!</h1>;
+   ```
+
+কম্পাইল করার পর এটি হতে পারে:
+   ```javascript
+   const element = React.createElement('h1', null, 'Hello, World!');
+   ```
+
+সোর্স ম্যাপ ফাইলের মাধ্যমে, ডেভেলপার টুলস আপনার JSX কোডের সাথে এই কম্পাইলড কোডের সম্পর্ক তৈরি করে। আপনি যখন ডেভেলপার টুলসে JSX কোডটি দেখেন, এটি আসল সোর্স কোডের মতো দেখাবে।
+
+### সংক্ষেপে:
+**সোর্স ম্যাপিং** ডেভেলপমেন্টে একটি গুরুত্বপূর্ণ টুল, যা JSX বা অন্য ট্রান্সপাইল হওয়া কোড ডিবাগিংকে অনেক সহজ করে তোলে। এটি ডেভেলপারকে কম্পাইল হওয়া কোডের পরিবর্তে আসল সোর্স কোডে কাজ করতে এবং ডিবাগ করতে সহায়তা করে।
+		</pre>
+	</body>
+</html>

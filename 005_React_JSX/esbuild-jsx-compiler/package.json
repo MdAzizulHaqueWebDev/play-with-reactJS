@@ -1,0 +1,16 @@
+{
+	"name": "esbuild-jsx-transpiler",
+	"version": "1.0.0",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "esbuild main.jsx --bundle --outfile=lib/out.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"esbuild": "0.24.0"
+	}
+}

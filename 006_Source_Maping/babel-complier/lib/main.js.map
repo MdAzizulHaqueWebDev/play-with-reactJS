@@ -1,0 +1,26 @@
+{
+	"version": 3,
+	"file": "main.js",
+	"names": [
+		"div",
+		"React",
+		"createElement",
+		"style",
+		"textAlign",
+		"console",
+		"log",
+		"ReactDOM",
+		"createRoot",
+		"document",
+		"querySelector",
+		"render"
+	],
+	"sources": [
+		"../main.js"
+	],
+	"sourcesContent": [
+		"const div = (\r\n\t<div>\r\n\t\t<h2 style={{ textAlign: \"center\" }}></h2>\r\n\t\t<p>Source mapping make developer power to debugging pro</p>\r\n\t</div>\r\n);\r\n\r\nconsole.log(\r\n\t\"I'm doing code in main.js but this file not executed in browser , hahaha\",\r\n);\r\n\r\nReactDOM.createRoot(document.querySelector(\"#root\")).render(div);\r\n"
+	],
+	"mappings": "AAAA,MAAMA,GAAG,gBACRC,KAAA,CAAAC,aAAA,2BACCD,KAAA,CAAAC,aAAA;EAAIC,KAAK,EAAE;IAAEC,SAAS,EAAE;EAAS;AAAE,CAAK,CAAC,eACzCH,KAAA,CAAAC,aAAA,YAAG,sDAAuD,CACtD,CACL;AAEDG,OAAO,CAACC,GAAG,CACV,0EACD,CAAC;AAEDC,QAAQ,CAACC,UAAU,CAACC,QAAQ,CAACC,aAAa,CAAC,OAAO,CAAC,CAAC,CAACC,MAAM,CAACX,GAAG,CAAC",
+	"ignoreList": []
+}
