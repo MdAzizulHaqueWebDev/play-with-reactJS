@@ -2959,19 +2959,28 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 var _appleCounter = require("./components/AppleCounter");
+var _counter = require("./src/react-state/Counter");
+var _counterDefault = parcelHelpers.interopDefault(_counter);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appleCounter.AppleCounter), {}, void 0, false, {
-            fileName: "main.js",
-            lineNumber: 8,
-            columnNumber: 4
-        }, this)
-    }, void 0, false);
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _counterDefault.default), {}, void 0, false, {
+                fileName: "main.js",
+                lineNumber: 9,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appleCounter.AppleCounter), {}, void 0, false, {
+                fileName: "main.js",
+                lineNumber: 10,
+                columnNumber: 4
+            }, this)
+        ]
+    }, void 0, true);
 }
 _c = App;
 (0, _clientDefault.default).createRoot(document.querySelector("#root")).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "main.js",
-    lineNumber: 13,
+    lineNumber: 15,
     columnNumber: 61
 }, undefined));
 var _c;
@@ -2982,7 +2991,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/AppleCounter":"nHtTb"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/AppleCounter":"nHtTb","./src/react-state/Counter":"FLq34"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27616,6 +27625,56 @@ exports.getOrigin = getOrigin;
 },{}],"4fCok":[function(require,module,exports) {
 module.exports = require("5e7006356581687b").getBundleURL("3gKDs") + "right-arrow.551a5ca1.png" + "?" + Date.now();
 
-},{"5e7006356581687b":"lgJ39"}]},["6DoTH","1xC6H","adjPd"], "adjPd", "parcelRequired289")
+},{"5e7006356581687b":"lgJ39"}],"FLq34":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$137f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$137f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Counter);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _s = $RefreshSig$();
+function Counter() {
+    _s();
+    let [count, setCount] = (0, _react.useState)(0);
+    console.log(setCount);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: count
+            }, void 0, false, {
+                fileName: "src/react-state/Counter.js",
+                lineNumber: 8,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: ()=>setCount(count + 1),
+                children: [
+                    "Increase value ",
+                    count
+                ]
+            }, void 0, true, {
+                fileName: "src/react-state/Counter.js",
+                lineNumber: 9,
+                columnNumber: 4
+            }, this)
+        ]
+    }, void 0, true);
+}
+_s(Counter, "oDgYfYHkD9Wkv4hrAPCkI/ev3YU=");
+_c = Counter;
+var _c;
+$RefreshReg$(_c, "Counter");
+
+  $parcel$ReactRefreshHelpers$137f.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}]},["6DoTH","1xC6H","adjPd"], "adjPd", "parcelRequired289")
 
 //# sourceMappingURL=index.63aff760.js.map

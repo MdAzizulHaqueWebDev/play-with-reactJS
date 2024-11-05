@@ -1,9 +1,9 @@
-5992
+5994
 88D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\semver\functions\inc.js133752519249545076 0
 83D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\msgpackr\struct.js133752519250095604 0
 75D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\is-extglob133752519245246494 1
 113D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\orientation-sensor.js133752519276524143 0
-59D:\playing-with-ReactJS\011_Apples_counter_projects\main.js133752526147527556 0
+59D:\playing-with-ReactJS\011_Apples_counter_projects\main.js133752808598317477 0
 110D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\transformer-postcss\lib\loadConfig.js133752519245660961 0
 105D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\pdf-viewer.js133752519276603920 0
 102D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\streams.js133752519277548172 0
@@ -15,7 +15,7 @@
 93D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\electron-to-chromium\LICENSE133752519244083460 0
 95D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\svgo\plugins\removeComments.js133752519254197257 0
 108D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\workers\lib\process\ProcessChild.js133752519250835822 0
-56D:\playing-with-ReactJS\011_Apples_counter_projects\dist133752797590165262 1
+56D:\playing-with-ReactJS\011_Apples_counter_projects\dist133752815232936574 1
 140D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-x64-gnu.node133752519254336903 0
 113D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\react\cjs\react-jsx-dev-runtime.profiling.min.js133752518185181615 0
 105D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\lightningcss-win32-x64-msvc\package.json133752519244472304 0
@@ -38,7 +38,7 @@
 81D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\svgo\lib\svgo.js133752519250783043 0
 83D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\utility-types\dist133752519249885870 1
 80D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\posthtml-render133752519246159626 1
-62D:\playing-with-ReactJS\011_Apples_counter_projects\.gitignore133752528532831370 0
+62D:\playing-with-ReactJS\011_Apples_counter_projects\.gitignore133752807407895553 0
 148D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\tokenizer\char-code-definitions.js133752519249096296 0
 111D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\electron-to-chromium\full-chromium-versions.js133752519245156744 0
 73D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\error-ex133752519245246494 1
@@ -67,7 +67,7 @@
 105D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\node-resolver-core\lib\_empty.js133752519244591984 0
 64D:\playing-with-ReactJS\011_Apples_counter_projects\package.json133752522875714065 0
 106D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\input-event.js133752519275122464 0
-55D:\playing-with-ReactJS\011_Apples_counter_projects\src133752523179899780 1
+55D:\playing-with-ReactJS\011_Apples_counter_projects\src133752808125900602 1
 77D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\svgo\LICENSE133752519244073370 0
 112D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\css-focus-visible.js133752519270955661 0
 108D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\core\src\requests\PackageRequest.js133752519264478559 0
@@ -1288,7 +1288,7 @@
 113D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\entities\lib\generated\decode-data-html.d.ts.map133752519249226149 0
 102D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\source-map\lib\source-map-consumer.js133752519248338093 0
 87D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\semver\functions\lt.js133752519250124559 0
-74D:\playing-with-ReactJS\011_Apples_counter_projects\dist\index.63aff760.js133752797589935872 0
+74D:\playing-with-ReactJS\011_Apples_counter_projects\dist\index.63aff760.js133752815232737060 0
 94D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\source-map\lib\source-node.js133752519248767161 0
 88D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-image133752519244967711 1
 109D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\utils\src\replaceBundleReferences.js133752519254177363 0
@@ -2123,7 +2123,7 @@
 109D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\lmdb\dependencies\v8\v8-fast-api-calls-v16.h133752519267887469 0
 105D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\lmdb\dependencies\v8\v8-fast-api-calls.h133752519267987204 0
 94D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\lmdb\dependencies\lz4\LICENSE133752519248946673 0
-81D:\playing-with-ReactJS\011_Apples_counter_projects\dist\right-arrow.551a5ca1.png133752793185108513 0
+81D:\playing-with-ReactJS\011_Apples_counter_projects\dist\right-arrow.551a5ca1.png133752813018201847 0
 94D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\lmdb\dependencies\lz4\lib\dll133752519264137403 1
 123D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\csso\node_modules\css-tree\cjs\syntax\node\index-parse.cjs133752519253199859 0
 92D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\domutils\lib\index.d.ts.map133752519248647609 0
@@ -4281,6 +4281,7 @@
 94D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@lezer\common\dist\index.d.ts133752519248098733 0
 108D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\input-pattern.js133752519275237365 0
 112D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\input-placeholder.js133752519275237365 0
+67D:\playing-with-ReactJS\011_Apples_counter_projects\src\react-state133752808211166998 1
 106D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\input-range.js133752519275257310 0
 80D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\.bin\semver.cmd133752519284932763 0
 96D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\workers\lib\cpuCount.js133752519249156119 0
@@ -4394,7 +4395,7 @@
 107D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\svg-fragment.js133752519277617169 0
 102D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\svg-img.js133752519277647081 0
 103D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\svg-smil.js133752519277657045 0
-79D:\playing-with-ReactJS\011_Apples_counter_projects\dist\index.c41b5a0e.css.map133752793186181489 0
+79D:\playing-with-ReactJS\011_Apples_counter_projects\dist\index.c41b5a0e.css.map133752813016687007 0
 112D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\template-literals.js133752519277726875 0
 103D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\temporal.js133752519277746806 0
 103D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\caniuse-lite\data\features\testfeat.js133752519277756984 0
@@ -5378,7 +5379,7 @@
 123D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\clean\Rule.js133752519252200672 0
 118D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-svgo\node_modules\csso\dist\csso.js133752519250463670 0
 122D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\CHANGELOG.md133752519268881920 0
-75D:\playing-with-ReactJS\011_Apples_counter_projects\dist\index.c41b5a0e.css133752793186080099 0
+75D:\playing-with-ReactJS\011_Apples_counter_projects\dist\index.c41b5a0e.css133752813016577124 0
 114D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\dist133752519251681800 1
 117D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\LICENSE133752519244143192 0
 122D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\package.json133752519268597354 0
@@ -5556,7 +5557,7 @@
 132D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\_transforms.js133752519247330573 0
 121D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\path.js133752519251552222 0
 128D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\stringifier.js133752519254306857 0
-67D:\playing-with-ReactJS\011_Apples_counter_projects\dist\index.html133752793186590392 0
+67D:\playing-with-ReactJS\011_Apples_counter_projects\dist\index.html133752813016567227 0
 126D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo-node.js133752519254977512 0
 121D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo.js133752519258047253 0
 122D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\types.ts133752519261633704 0
@@ -5989,5 +5990,6 @@
 76D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\.bin\semver133752519284932763 0
 78D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\.bin\svgo.cmd133752519284932763 0
 92D:\playing-with-ReactJS\011_Apples_counter_projects\node_modules\.bin\update-browserslist-db133752519284932763 0
-80D:\playing-with-ReactJS\011_Apples_counter_projects\dist\left-arrow.ec8af14b.png133752793185313475 0
-78D:\playing-with-ReactJS\011_Apples_counter_projects\dist\index.63aff760.js.map133752797590145325 0
+78D:\playing-with-ReactJS\011_Apples_counter_projects\src\react-state\Counter.js133752815227853792 0
+80D:\playing-with-ReactJS\011_Apples_counter_projects\dist\left-arrow.ec8af14b.png133752813016479657 0
+78D:\playing-with-ReactJS\011_Apples_counter_projects\dist\index.63aff760.js.map133752815232926622 0
