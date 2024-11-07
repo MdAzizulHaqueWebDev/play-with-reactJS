@@ -1,8 +1,14 @@
+import { Link } from "react-router-dom";
+
 export default function CountryCard({ country }) {
-	// console.log(country);
 	const { name, flags, population, region, capital } = country;
+
 	return (
-		<a href="#" className="country-card">
+		<Link
+			to={`/${name.common}`}
+			onClick={() => history.pushState({}, {}, `/${name.common}`)}
+			className="country-card"
+		>
 			<img src={flags?.svg ?? flags.png} alt={name?.common} />
 			<div className="country-desc">
 				<h3>{name?.common}</h3>
@@ -16,6 +22,6 @@ export default function CountryCard({ country }) {
 					<b>Capital :</b> {capital ?? "Not available"}
 				</p>
 			</div>
-		</a>
+		</Link>
 	);
 }

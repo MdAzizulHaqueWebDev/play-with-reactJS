@@ -4,6 +4,9 @@ import Header from "./components/Header";
 import "./app.css";
 import Countries from "./components/Countries";
 import Footer from "./components/Footer";
+import React from "react";
+import { RouterProvider } from "react-router-dom";
+import router from "./routers/Router";
 if (!localStorage.getItem("theme")) {
 	localStorage.setItem("theme", "light");
 } else {
@@ -29,4 +32,8 @@ export default function App() {
 	);
 }
 
-createRoot(document.querySelector("#root")).render(<App />);
+createRoot(document.querySelector("#root")).render(
+	<React.StrictMode>
+		<RouterProvider router={router} />
+	</React.StrictMode>,
+);

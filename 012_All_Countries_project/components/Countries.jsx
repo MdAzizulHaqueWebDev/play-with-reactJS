@@ -1,14 +1,34 @@
-import { useState } from "react";
-import countries from "../data/countries.js";
+import { useEffect, useState } from "react";
+// import countries from "../data/countries.js";
 import CountryCard from "./CountryCard.jsx";
+import Loader from "./Loader.jsx";
 export default function Countries() {
+	const [countries, setCountries] = useState([]);
 	const [search, setSearch] = useState("");
 	const [selectValue, setSelect] = useState("");
-	console.log(
-		countries.filter((country) =>
-			country.region.toLowerCase().includes(selectValue.toLowerCase()),
-		).length,
-	);
+
+	// technique but not for everything
+	// if (countries.length === 0) {
+	// fetch("https://restcountries.com/v3.1/all")
+	// 	.then((res) => {
+	// 		return res.json();
+	// 	})
+	// 	.then((data) => {
+	// 		setCountries(data);
+	// 	})
+	// 	.catch((err) => {});
+	// }
+	useEffect(() => {
+		fetch("https://restcountries.com/v3.1/all")
+			.then((res) => {
+				return res.json();
+			})
+			.then((data) => {
+				setCountries(data);
+			})
+			.catch((err) => {});
+	}, []);
+	if (!countries.length) return <Loader />;
 	return (
 		<>
 			<div className="query-container">
