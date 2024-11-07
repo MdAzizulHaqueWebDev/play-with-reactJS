@@ -1,12 +1,14 @@
-import { Link, useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useLocation, useParams } from "react-router-dom";
 import Header from "./Header";
 import { useEffect, useState } from "react";
 
 export default function CountryDetails() {
-	const { country } = useParams();
+	// const { country } = useParams(); // when we need to fetch data when component mounted
 	const [countryData] = useLoaderData();
 	const [borders, setBorders] = useState([]);
-	console.log(countryData);
+	const historyAPI = useLocation();
+	console.log(historyAPI.state);
+	// console.log(countryData);
 	useEffect(() => {
 		if (countryData.borders.length) {
 			Promise.all(
@@ -84,7 +86,11 @@ export default function CountryDetails() {
 					<section className="border-countries">
 						<b>Border Countries:</b>{" "}
 						{borders.map(({ name }) => (
-							<Link to={`/${name.common}`} key={name.common}>
+							<Link
+								state={countryData}
+								to={`/${name.common}`}
+								key={name.common}
+							>
 								{name.common}
 							</Link>
 						))}

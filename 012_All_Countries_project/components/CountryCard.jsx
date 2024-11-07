@@ -6,6 +6,7 @@ export default function CountryCard({ country }) {
 	return (
 		<Link
 			to={`/${name.common}`}
+			state={country}
 			onClick={() => history.pushState({}, {}, `/${name.common}`)}
 			className="country-card"
 		>
