@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	--background-color: white;
+	--color: black;
+	--element-background: white;
+	margin: 0;
+	font-family: Nunito, sans-serif;
+	background-color: var(--background-color);
+	color: var(--color);
+}
+.theme-toggler:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+body.dark {
+	--background-color: hsl(207, 26%, 17%);
+	--color: rgba(255, 255, 255, 0.742);
+	--element-background: hsl(209, 23%, 22%);
+}
+main {
+	padding: 20px;
+}
+.header-container {
+	box-shadow: inset 15px 12px 20px 6px rgba(0, 0, 0, 0.1);
+	padding-inline: 24px;
+}
+
+.header-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-inline: auto;
+	max-width: 1440px;
+}
+.header-content a {
+	text-decoration: none;
+}
+
+a {
+	color: inherit;
+	text-decoration-line: none;
+}
+
+.query-container {
+	max-width: 1200px;
+	margin-inline: auto;
+	margin-top: 16px;
+	margin-bottom: 48px;
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+	flex-wrap: wrap;
+	padding-inline: 20px;
+}
+
+.search-container {
+	box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+	max-width: 350px;
+	width: 100%;
+	border-radius: 4px;
+	padding-left: 24px;
+	color: #999;
+	overflow: hidden;
+}
+
+.search-container input {
+	border: none;
+	outline: none;
+	padding: 16px;
+	width: 90%;
+	background-color: inherit;
+	color: inherit;
+}
+
+.search-container input::placeholder {
+	color: #999;
+}
+
+.filter-by-region {
+	width: 250px;
+	padding: 16px;
+	border: none;
+	outline: none;
+	box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+.country-card {
+	display: block;
+	width: 250px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+	max-height: 400px;
+	/* height: min-content; */
+}
+
+.country-card img {
+	width: 100%;
+
+	max-height: 200px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	/* border-radius: inherit; */
+}
+.country-card:hover {
+	transform: scale(1.2);
+}
+
+.country-desc {
+	padding-inline: 15px;
+}
+.country-desc p {
+	margin-block: 5px;
+}
+
+.countries-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-around;
+}
+
+.attribution {
+	text-align: right;
+	margin-inline-end: 5px;
+}
+
+.attribution a {
+	text-decoration-line: underline;
+	margin-left: 5px;
+}
